@@ -18,19 +18,16 @@ class DefaultTask extends \Hleb\Scheme\App\Commands\MainTask
 
     /* Short name of the action for the command */
     /* Короткое название действия для команды */
-    const DESCRIPTION = "Default task";
+    public const DESCRIPTION = "Default task";
 
     /**
      * @param string|int|null $arg - argument description
      */
-    protected function execute($arg = null) {
-
+    protected function execute($arg = null)
+    {
         // Your code here.
         // Разместите здесь свой код.
 
         echo PHP_EOL . __CLASS__ . " done." . PHP_EOL;
     }
-
 }
-
-

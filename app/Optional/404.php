@@ -1,7 +1,7 @@
 <?php
 /* Actual 404 error page */
 /* Актуальная страница 404 ошибки */
-http_response_code (404);
+http_response_code(404);
 ?><!DOCTYPE html>
 <html>
 <head>

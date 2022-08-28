@@ -12,3 +12,6 @@
 
 Route::get("/", view("default"));
 
+Route::get("/load")->controller("DefaultController@load")->name('load');
+
+Route::post("/api.php")->controller("ApiController@api")->name('api');

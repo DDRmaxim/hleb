@@ -12,7 +12,8 @@ use Hleb\Scheme\Home\Main\Connector;
 
 class MainConnector implements Connector
 {
-    public function add() {
+    public function add()
+    {
         return [
             "App\Controllers\*" => "app/Controllers/",
             "Models\*" => "app/Models/",
@@ -28,8 +29,5 @@ class MainConnector implements Connector
             'Phphleb\Adminpan\MainAdminPanel' => 'vendor/phphleb/adminpan/MainAdminPanel.php',
             // ... //
         ];
-
     }
-
 }
-

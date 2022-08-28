@@ -26,5 +26,3 @@ header("X-Frame-Options: SAMEORIGIN");
 require __DIR__ . '/../vendor/phphleb/framework/bootstrap.php';
 
 exit();
-
-
